@@ -48,5 +48,11 @@ After a few seconds, we can check that all pods are running:
 
 <img width="598" alt="Screenshot 2024-10-07 at 16 24 42" src="https://github.com/user-attachments/assets/d3780e87-53a3-4638-b213-ad87c10c3154">
 
+we use one of the Node Pools IP addresses from Linode and port 30007 from the NodePort (frontend):
+
+![image](https://github.com/user-attachments/assets/e0a3db9e-fd89-43e8-a56f-5abe5d1bf47b)
+
+<img width="599" alt="Screenshot 2024-10-07 at 16 37 17" src="https://github.com/user-attachments/assets/6bc4e77d-7b10-4658-966c-5c2e5b152669">
+
 <img width="875" alt="Screenshot 2024-10-07 at 15 27 04" src="https://github.com/user-attachments/assets/a261ba37-11e7-468d-97a5-53643325bada">
 
