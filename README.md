@@ -38,7 +38,7 @@ The config file that points to the cluster contains a secret key so it is recomm
 Afterwards, we configure kubectl to use the context in this new config file.
 To ensure that it’s working we can get the pods currently running in the cluster (it should successfully connect and respond that there are no pods in the default namespace since we haven’t deployed anything)
 
-<img width="593" alt="Screenshot 2024-10-07 at 16 23 49" src="https://github.com/user-attachments/assets/98ea483d-ea46-4124-98ab-88dfb88cca85">
+<img width="595" alt="Screenshot 2024-10-07 at 16 26 41" src="https://github.com/user-attachments/assets/75c49e6b-085f-4d1d-8741-8a66558c5d3e">
 
 Apply all the kubernetes resources defined in the config.yaml manifest:![image](https://github.com/user-attachments/assets/7a6a00f6-6ec0-445b-91db-f3b63942274d)
 
