@@ -1,35 +1,23 @@
-# Deploy MS application in K8s Provide Git URL
 
-This project consists in 2 parts:
+
+This project consists of 2 parts:
 - Create K8s manifests for Deployments and Services for all microservices of an online shop application
 - Deploy microservices to Linode's managed Kubernetes cluster
 
-  
-This is an overview of the project:
+## Create K8s manifests for Deployments and Services for all microservices of an online shop application
 
-<img width="463" alt="Screenshot 2024-10-07 at 15 10 22" src="https://github.com/user-attachments/assets/26e9cbe7-11df-4545-861c-37a76e8056d9">
-
-we create a Kubernetes cluster with Linode, a cloud hosting provider that focused on providing Linux-based virtual machines, cloud infrastructure, and managed services:
-
-<img width="464" alt="Screenshot 2024-10-07 at 15 11 50" src="https://github.com/user-attachments/assets/7e53a3a1-a71c-4fa6-aa6b-7a0eb659ccca">
-
-
-<img width="887" alt="Screenshot 2024-10-07 at 15 12 17" src="https://github.com/user-attachments/assets/dd38ec1d-6f4d-4afe-ace7-ad5da313e7c3">
-
-we choose node pools of 4GB:
-
-<img width="885" alt="Screenshot 2024-10-07 at 15 13 36" src="https://github.com/user-attachments/assets/d31886f6-a5c7-4c2a-956e-fb637a6f6c69">
-
-we download the kubeconfig.yaml, add it to the folder with the 
-
-<img width="889" alt="Screenshot 2024-10-07 at 15 14 09" src="https://github.com/user-attachments/assets/44e77512-2aa3-43c1-b6e2-cb42360f4e6c">
-
-
-# Deploy microservices app:
+Microservices Overview:
 
 <img width="736" alt="Screenshot 2024-10-07 at 15 19 34" src="https://github.com/user-attachments/assets/8a63d1b0-73ff-4338-b9a1-e2682172c897">
 
 <img width="880" alt="Screenshot 2024-10-07 at 15 20 29" src="https://github.com/user-attachments/assets/60991f5d-2e31-4e69-bdc2-3859d19851d9">
+
+The manifests are written in config.yaml. For each microservice I've created a deployment (which ensures that there's always pods for that microservice) and a service to access the pod/s of that microsevice.
+
+Each pod has environment variables to specify its port (and ports and other relevant info of any other microservice it needs to connect to).
+
+## Deploy microservices app to Linode's managed Kubernetes cluster:
+
 
 The config file that points to the cluster contains a secret key so it is recommended to modify its permissions to prevent unwanted users from accessing the cluster.
 
@@ -54,7 +42,7 @@ we use one of the Node Pools IP addresses from Linode and port 30007 from the No
 
 <img width="599" alt="Screenshot 2024-10-07 at 16 37 17" src="https://github.com/user-attachments/assets/6bc4e77d-7b10-4658-966c-5c2e5b152669">
 
-
+This is the final website:
 
 <img width="875" alt="Screenshot 2024-10-07 at 15 27 04" src="https://github.com/user-attachments/assets/a261ba37-11e7-468d-97a5-53643325bada">
 
