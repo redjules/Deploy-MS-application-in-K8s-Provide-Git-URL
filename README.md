@@ -40,7 +40,7 @@ To ensure that it’s working we can get the pods currently running in the clust
 
 <img width="595" alt="Screenshot 2024-10-07 at 16 26 41" src="https://github.com/user-attachments/assets/75c49e6b-085f-4d1d-8741-8a66558c5d3e">
 
-Apply all the kubernetes resources defined in the config.yaml manifest:![image](https://github.com/user-attachments/assets/7a6a00f6-6ec0-445b-91db-f3b63942274d)
+Apply all the kubernetes resources defined in the config.yaml manifest:
 
 <img width="549" alt="Screenshot 2024-10-07 at 16 24 11" src="https://github.com/user-attachments/assets/0be6c86d-8a17-46fd-ae6e-c16b79bd167c">
 
