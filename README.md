@@ -39,5 +39,5 @@ we download the kubeconfig.yaml, add it to the folder with the
 
 <img width="885" alt="Screenshot 2024-10-07 at 15 22 29" src="https://github.com/user-attachments/assets/5c7590a6-3fe8-49ca-b529-99c805829282">
 
+<img width="875" alt="Screenshot 2024-10-07 at 15 27 04" src="https://github.com/user-attachments/assets/a261ba37-11e7-468d-97a5-53643325bada">
 
-<img width="883" alt="Screenshot 2024-10-07 at 15 22 59" src="https://github.com/user-attachments/assets/9478453a-7f19-4be2-8fcb-b2b3ea16a9d6">
